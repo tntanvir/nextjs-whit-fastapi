@@ -78,7 +78,7 @@ const MainLayout = ({ children }) => {
                                 </div>
                             </div>
                             <div className="px-6 mt-6">
-                                <Link href="#" className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700"> Get started now </Link>
+                                <Link href="/singin" className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700"> Get started now </Link>
                             </div>
                         </nav>
                     )}

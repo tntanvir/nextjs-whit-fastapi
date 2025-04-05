@@ -36,6 +36,7 @@ const SingupPage = () => {
             const data = await response.json();
             if (response.ok) {
                 console.log("Registered:", data);
+                alert('signup Success')
                 router.push('/singin')
             } else {
                 console.error(' Error:', data);
